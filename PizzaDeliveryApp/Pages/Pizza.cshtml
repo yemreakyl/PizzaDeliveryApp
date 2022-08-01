@@ -2,18 +2,38 @@
 @model PizzaDeliveryApp.Pages.PizzaModel
 @{
 }
-  <div class="text-center">
-      <div class="maintext">
-              <h1 class="display-4 text-black text-capitalize ">Birbirinden Lezzetli Pizza Seçeneklerimize Göz Atın</h1>
-              <h4>Seçiminizi yapın veya kendi pizzanızı yaratmayı deneyin! Daha sonra siprarişinizi verin ve arkanıza yaslanın :) </h4>
-              <h4> Özenle seçilmiş malzemelerle en iyi şefler sizin için çalışıyor !</h4>
-              <h4>Hayal kurmaya başlayabilirsiniz</h4>
-              <br />
-              <p class="smalltext"><i>Sipariş başına en fazla bir adet pizza seçebilirsiniz</i></p>
-      </div>
-    
-    
+ <div class="text-center">
+    <div class="mainText">
+        <h1 class="display-4 text-black text-capitalize">Our great selection of Pizzas</h1>
+        <gr/>
+        <h4>Choose one, or try our Pizza Builder! Then Order and Done!</h4>
+        <h4>No need to give any of your details!</h4>
+        <h4>We already know everything!</h4>
+        <p class="smallText"><i>Only one pizza per order.</i></p>
+    </div>
+     <div class="container">
 
+        <div class="row">
 
-  </div>
-      
+            <div class="col-12 mb-5 mt-5">
+
+                <div class="w-100 row makeYourOwnDiv">
+
+                    <div class="col-4">
+                        <img src="~/images/Pizzas/Create.png" class="w-100"/>
+                    </div>
+
+                    <div class="col-8 align-items-center">
+                        <div class="align-middle makeYourOwnText">
+                            <h3 style="text-align: left;">Create your own Pizza!</h3>
+                            <p style="text-align: left;">Make your own Pizza with our Pizza Creator!</p>
+                            <a class="btn btn-primary" style="float: left" asp-area="" asp-page="Form/CustomPizza">Try now!</a>   
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+             
+        </div>      
+    </div>
+</div>
